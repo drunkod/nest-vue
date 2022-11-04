@@ -85,6 +85,9 @@ yarn dlx --quiet @fastify/secure-session > ./apps/docker/secrets/BACKEND_SESSION
 
 ```bash
 htpasswd -c ./apps/docker/secrets/NGINX_STAGING_AUTH username
+
+echo -n 'username:' >> ./apps/docker/secrets/NGINX_STAGING_AUTH
+openssl passwd -apr1 >> ./apps/docker/secrets/NGINX_STAGING_AUTH
 ```
 
 </CodeGroupItem>

@@ -14,7 +14,7 @@
 		/>
 
 		<div class="wrapper">
-			<HelloWorld msg="Frontend Demo" />
+			<HelloWorld msg="Frontend Demo 2022" />
 
 			<nav>
 				<RouterLink to="/">Show Me The Details</RouterLink>

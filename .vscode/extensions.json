@@ -1,14 +1,14 @@
 {
-	"recommendations": [
-		"adrianwilczynski.toggle-hidden",
-		"arcanis.vscode-zipfs",
-		"bradlc.vscode-tailwindcss",
-		"dbaeumer.vscode-eslint",
-		"esbenp.prettier-vscode",
-		"firsttris.vscode-jest-runner",
-		"nrwl.angular-console",
-		"prisma.prisma",
-		"vue.volar",
-		"vue.vscode-typescript-vue-plugin"
-	]
+  "recommendations": [
+    "adrianwilczynski.toggle-hidden",
+    "arcanis.vscode-zipfs",
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "firsttris.vscode-jest-runner",
+    "nrwl.angular-console",
+    "prisma.prisma",
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin"
+  ]
 }

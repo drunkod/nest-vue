@@ -12,6 +12,6 @@ export class AppService {
 	 * @returns "Hello World!"
 	 */
 	async getHello(): Promise<string> {
-		return "Hello World!";
+		return "Hello World! 2024";
 	}
 }

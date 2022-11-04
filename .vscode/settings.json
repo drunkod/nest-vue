@@ -1,66 +1,66 @@
 {
-	"eslint.nodePath": ".yarn/sdks",
-	"prettier.prettierPath": ".yarn/sdks/prettier/index.js",
-	"typescript.tsdk": ".yarn/sdks/typescript/lib",
-	"typescript.enablePromptUseWorkspaceTsdk": true,
-	"js/ts.implicitProjectConfig.experimentalDecorators": true,
-	"[rust]": {
-		"editor.defaultFormatter": "rust-lang.rust-analyzer", // Makes the magic
-		"editor.formatOnSave": true
-	},
-	"eslint.workingDirectories": [
-		{
-			"directory": "apps/backend",
-			"changeProcessCWD": true
-		},
-		{
-			"directory": "apps/frontend",
-			"changeProcessCWD": true
-		},
-		{
-			"directory": "e2e/backend",
-			"changeProcessCWD": true
-		},
-		{
-			"directory": "e2e/frontend",
-			"changeProcessCWD": true
-		}
-	],
-	"files.exclude": {
-		"**/.babelrc": false,
-		"**/.cargo": false,
-		"**/.editorconfig": false,
-		"**/.eslintrc.json": false,
-		"**/.gitignore": false,
-		"**/.pnp.*": false,
-		"**/.prettier*": false,
-		"**/.snyk": false,
-		"**/.vscode": false,
-		"**/.yarn": false,
-		"**/.yarnrc.yml": false,
-		"**/Cargo.lock": false,
-		"**/docs/.vitepress/.cache": false,
-		"**/docs/.vitepress/.temp": false,
-		"**/jest.config.ts": false,
-		"**/jest.preset.js": false,
-		"**/LICENSE": false,
-		"**/nest-cli.json": false,
-		"**/node_modules": false,
-		"**/nx.json": false,
-		"**/postcss.config.js": false,
-		"rust-toolchain.toml": false,
-		"**/rustfmt.toml": false,
-		"**/tailwind.config.js": false,
-		"**/tsconfig.json": false,
-		"**/tsconfig.*.json": false,
-		"**/webpack.config.js": false,
-		"**/workspace.json": false,
-		"**/yarn.lock": false
-	},
-	"search.exclude": {
-		"**/.pnp.*": true,
-		"**/.yarn": true,
-		"**/yarn.lock": true,
-		"**/node_modules": true
-	}
+  "eslint.nodePath": ".yarn/sdks",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer", // Makes the magic
+    "editor.formatOnSave": true
+  },
+  "eslint.workingDirectories": [
+    {
+      "directory": "apps/backend",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "apps/frontend",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "e2e/backend",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "e2e/frontend",
+      "changeProcessCWD": true
+    }
+  ],
+  "files.exclude": {
+    "**/.babelrc": false,
+    "**/.cargo": false,
+    "**/.editorconfig": false,
+    "**/.eslintrc.json": false,
+    "**/.gitignore": false,
+    "**/.pnp.*": false,
+    "**/.prettier*": false,
+    "**/.snyk": false,
+    "**/.vscode": false,
+    "**/.yarn": false,
+    "**/.yarnrc.yml": false,
+    "**/Cargo.lock": false,
+    "**/docs/.vitepress/.cache": false,
+    "**/docs/.vitepress/.temp": false,
+    "**/jest.config.ts": false,
+    "**/jest.preset.js": false,
+    "**/LICENSE": false,
+    "**/nest-cli.json": false,
+    "**/node_modules": false,
+    "**/nx.json": false,
+    "**/postcss.config.js": false,
+    "rust-toolchain.toml": false,
+    "**/rustfmt.toml": false,
+    "**/tailwind.config.js": false,
+    "**/tsconfig.json": false,
+    "**/tsconfig.*.json": false,
+    "**/webpack.config.js": false,
+    "**/workspace.json": false,
+    "**/yarn.lock": false
+  },
+  "search.exclude": {
+    "**/.pnp.*": true,
+    "**/.yarn": true,
+    "**/yarn.lock": true,
+    "**/node_modules": true
+  }
 }
